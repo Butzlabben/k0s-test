@@ -11,6 +11,6 @@ The cluster will have 3 masters in multiple regions behind a load balancer.
 Create terraform.tfvars file with needed details. You can use the provided terraform.tfvars.example as a baseline.
 - `terraform init`
 - `terraform apply`
-- `terraform output k0s_cluster > k0sctl.yaml`
+- `terraform output -raw k0s_cluster > k0sctl.yaml`
 - `k0sctl apply`
 - Optional: `k0sctl kubeconfig > ~/.kube/config`
