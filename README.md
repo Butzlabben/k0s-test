@@ -1,6 +1,7 @@
-# Bootstrapping highly available k0s cluster on Hetzner
+# Bootstrapping highly available k0s cluster on Hetzner cloud
 
 This directory provides an example flow with `k0sctl` tool together with Terraform using Hetzner as the cloud provider.
+The cluster will have 3 masters in multiple regions behind a load balancer.
 
 ## Prerequisites
 - You need an account and API token for Hetzner
