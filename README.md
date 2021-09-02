@@ -1,4 +1,4 @@
-# Bootstrapping k0s cluster on Hetzner
+# Bootstrapping highly available k0s cluster on Hetzner
 
 This directory provides an example flow with `k0sctl` tool together with Terraform using Hetzner as the cloud provider.
 
