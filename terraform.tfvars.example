@@ -1,0 +1,10 @@
+ssh_keys = ["you@domain.com"]
+hcloud_token = "your_token"
+cluster_name = "k0s"
+master_locations = ["fsn1", "hel1", "nbg1"]
+worker_location = "fsn1"
+image = "ubuntu-20.04"
+master_type = "cpx11"
+master_count = 3
+worker_type = "cpx11"
+worker_count = 2
